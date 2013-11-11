@@ -2,7 +2,7 @@ xcodeproj 'stackmob-ios-sdk.xcodeproj'
 
 platform :ios, '7.0'
 
-pod 'AFNetworking', :head
+pod 'AFNetworking', :'2.0'
 
 target 'stackmob-ios-sdkTests', :exclusive => true do
     pod 'Kiwi/SenTestingKit', '2.2.2'
